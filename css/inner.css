@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+/*초기화*/
+
+body {font-family:'Nanum Gothic Coding', monospace; background:; font-size:;}
+.hidden {display:none;}
+ul:after {display:block; }
+
+header {position:fixed; top:0; left:0; height:90px; width:100%; margin-bottom:50px;  z-index:1000;}
+nav {background:#fff; }
+nav ul {margin:50px 200px 0 0;}
+nav li {float:right; }
+nav a {display:block; font-size:13px; margin-right:10px; background:rgba(0, 0, 0, 0.692); color:#fff; border-radius:30px; padding:0 20px; line-height:30px;}
+nav a:hover {background:#fff; color:red;}
+nav a:focus {background:#fff; color:red; transition:1s;}
+
+.m_gnb {display:none;}
+
+#profile {width:1280px;  margin:auto;}
+    .profile_photo img {width:100%}
+
+    .t_prophoto img {display:none;}
+
+
+/********************************** bootstrap site **********************************/
+
+#bootS {position:relative; height:900px; padding:100px 0; font-family: 'Noto Sans KR', sans-serif;  background:#eeeeee;}
+    .samsung {height:800px;}
+    .samsung .samsungtxt {float:left; width:40%; line-height:50px; text-align:right; margin-top:370px;}
+    .samsung .samsungtxt h1 {font-size:45px; font-weight:bold; padding-bottom:20px;}
+    .samsung .samsungtxt .samsungtxt1 {position:relative; font-size:30px; font-weight:bold; line-height:50px;}
+    .samsung .samsungtxt .samsungtxt1:before {position:absolute; display:block; content:''; width:800px; height:0.1px; right:0px; border:1px solid #ccc;}
+    .samsung .samsungtxt .samsungtxt2 > img {width:250px; padding-top:20px;}
+
+    .samsung .samsungimg {float:right; width:55%; margin:150px 70px 0 0; }
+    .samsung .samsungimg a {}
+    .samsung .samsungimg a img {opacity:0.7; width:1000px;}
+    .samsung .samsungimg a:hover img {opacity:1; transition:0.5s;}
+
+#bootS2 {position:relative; height:900px; padding:100px 0; font-family: 'Noto Sans KR', sans-serif;}
+    .bootstrap {height:800px;}
+    .bootstrap .bootstrapimg {float:left; width:55%; margin:150px 0 0 90px;}
+    .bootstrap .bootstrapimg a img {opacity:0.7; width:1000px;}
+    .bootstrap .bootstrapimg a:hover img {opacity:1; transition:0.5s;}
+
+    .bootstrap .bootstraptxt {float:right; width:40%; line-height:50px; text-align:left; margin-top:370px;}
+    .bootstrap .bootstraptxt h1 {font-size:45px; font-weight:bold; padding-bottom:20px;}
+    .bootstrap .bootstraptxt .boottxt1 {position:relative; font-size:30px; font-weight:bold; line-height:50px;}
+    .bootstrap .bootstraptxt .boottxt1:before {position:absolute; display:block; content:''; width:100%; height:1px; left:0px; background: #ccc;}
+    .bootstrap .bootstraptxt .boottxt2 > img {width:250px; padding-top:20px;}
+
+
+
+
+/******************************* mobile *********************************/
+
+#mobile {height:1100px; margin:auto;  background:#eeeeee;}
+    .slider { width:1080px; margin:auto; }
+    .slider img {width:1000px; margin:200px 0 100px 0;}
+
+    
+    .slick-dots {position:absolute; bottom:30px; left:50%; z-index:11;}
+    .slick-dots li {float:left; width:10px; height:10px; border: 1px solid #000000; border-radius:50%; cursor:pointer; margin-right:30px;}
+    .slick-dots li button {all:unset; text-indent:-9999px;}
+    .slick-dots li.slick-active {background:#c2c2c2;}
+
+
+
+/******************************* uxui *********************************/
+
+#uxui {position:relative; height:900px; padding:100px 0; font-family: 'Noto Sans KR', sans-serif;}
+    .jirans {height:800px;}
+    .jirans .jiranstxt {float:left; width:40%; line-height:50px; text-align:right; margin-top:370px;}
+    .jirans .jiranstxt h1 {font-size:45px; font-weight:bold; padding-bottom:20px;}
+    .jirans .jiranstxt .jiranstxt1 {position:relative; font-size:30px; font-weight:bold; line-height:50px;}
+    .jirans .jiranstxt .jiranstxt1:before {position:absolute; display:block; content:''; width:800px; height:0.1px; right:0px; border:1px solid #ccc;}
+    .jirans .jiranstxt .jiranstxt2 > img {width:200px; padding-top:20px;}
+
+    .jirans .jiransimg {float:right; width:55%; margin:150px 70px 0 0; }
+    .jirans .jiransimg a {}
+    .jirans .jiransimg a img {opacity:0.7; width:1000px;}
+    .jirans .jiransimg a:hover img {opacity:1; transition:0.5s;}
+
+#uxui2 {position:relative; height:900px; padding:100px 0; font-family: 'Noto Sans KR', sans-serif;  background:#eeeeee;}
+    .apple {height:800px;}
+    .apple .appleimg {float:left; width:55%; margin:150px 0 0 90px;}
+    .apple .appleimg a img {opacity:0.7; width:1000px;}
+    .apple .appleimg a:hover img {opacity:1; transition:0.5s;}
+
+    .apple .appletxt {float:right; width:40%; line-height:50px; text-align:left; margin-top:370px;}
+    .apple .appletxt h1 {font-size:45px; font-weight:bold; padding-bottom:20px;}
+    .apple .appletxt .appletxt1 {position:relative; font-size:30px; font-weight:bold; line-height:50px;}
+    .apple .appletxt .appletxt1:before {position:absolute; display:block; content:''; width:100%; height:1px; left:0px; background: #ccc;}
+    .apple .appletxt .appletxt2 > img {width:250px; padding-top:20px;}
+
+
+#uxui3 {position:relative; height:900px; padding:100px 0; font-family: 'Noto Sans KR', sans-serif;}
+    .kia { height:800px;}
+    .kia .kiatxt { float:left; width:40%; line-height:50px; text-align:right; margin-top:370px;}
+    .kia .kiatxt h1 { font-size:45px; font-weight:bold; padding-bottom:20px;}
+    .kia .kiatxt .kiatxt1 { position:relative; font-size:30px; font-weight:bold; line-height:50px;}
+    .kia .kiatxt .kiatxt1:before { position:absolute; display:block; content:''; width:100%; height:1px; right:0px; background: #ccc;}
+    .kia .kiatxt .kiatxt2 > img {width:200px; padding-top:20px;}
+
+    .kia .kiaimg { float:right; width:55%; margin:150px 70px 0 0;}
+    .kia .kiaimg a {}
+    .kia .kiaimg a img {opacity:0.7; width:1000px;}
+    .kia .kiaimg a:hover img {opacity:1; transition:0.5s;}
+
+
+/*footer*/
+
+footer {position:relative; display:block;}
+footer .copy {padding:60px 50px; text-align:center;}
+footer .copy p {font-size:13px; color:#000; letter-spacing:2px;}
+
+/*화면 너비가 1081px보다 작을 때*/
+@media (max-width:1080px){
+    
+    nav ul {margin:50px 0 0 0;}
+    nav li {float:right; }
+    nav a {display:block; font-size:13px; margin-right:10px; background:rgba(0, 0, 0, 0.692); color:#fff; border-radius:30px; padding:0 20px; line-height:30px;}
+    nav a:hover {background:#fff; color:red;}
+    nav a:focus {background:#fff; color:red; transition:1s;}
+    
+    #profile {width:1020px;  margin:auto;}
+        .profile_photo img {}
+    
+
+    /********************************** bootstrap site **********************************/
+
+    #bootS {height:700px; padding:50px 0;}
+    .samsung {height:800px;}
+    .samsung .samsungtxt {float:right; width:100%; line-height:50px; text-align:center; margin-top:50px;}
+    .samsung .samsungtxt h1 {font-size:30px; font-weight:bold; padding-bottom:5px;}
+    .samsung .samsungtxt .samsungtxt1 {position:relative; font-size:20px; font-weight:bold; line-height:30px;}
+    .samsung .samsungtxt .samsungtxt1:before {display:none;}
+    .samsung .samsungtxt .samsungtxt2 > img {width:200px; padding-top:0;}
+
+    .samsung .samsungimg {float:none; width:700px; margin:auto; }
+    .samsung .samsungimg a img { width:700px;}
+
+    #bootS2 {height:700px; padding:100px 0 30px 0;}
+    .bootstrap {height:800px;}
+    .bootstrap .bootstrapimg {float:none; width:700px; margin:auto;}
+    .bootstrap .bootstrapimg a img {width:700px;}
+
+    .bootstrap .bootstraptxt {float:left;  width:100%; line-height:50px; text-align:center; margin-top:50px;}
+    .bootstrap .bootstraptxt h1 {font-size:30px; font-weight:bold; padding-bottom:20px;}
+    .bootstrap .bootstraptxt .boottxt1 {position:relative; font-size:20px; font-weight:bold; line-height:30px;}
+    .bootstrap .bootstraptxt .boottxt1:before {display:none;}
+    .bootstrap .bootstraptxt .boottxt2 > img {width:200px; padding-top:0;}
+
+    /******************************* mobile *********************************/
+
+    #mobile {height:800px; margin:auto;  background:#eeeeee;}
+    .slider { width:700px; margin:auto; }
+    .slider img {width:620px; margin:200px 0 100px 40px;}
+
+
+    .slick-dots {position:absolute; bottom:30px; left:50%; z-index:11;}
+    .slick-dots li {float:left; width:10px; height:10px; border: 1px solid #000000; border-radius:50%; cursor:pointer; margin-right:30px;}
+    .slick-dots li button {all:unset; text-indent:-9999px;}
+    .slick-dots li.slick-active {background:#c2c2c2;}
+
+
+    /******************************* uxui *********************************/
+
+    #uxui {height:700px; padding:50px 0; }
+    .jirans {height:800px;}
+    .jirans .jiranstxt {float:left; width:100%; line-height:50px; text-align:center; margin-top:50px;}
+    .jirans .jiranstxt h1 {font-size:30px; font-weight:bold; padding-bottom:5px;}
+    .jirans .jiranstxt .jiranstxt1 {position:relative; font-size:20px; font-weight:bold; line-height:30px;}
+    .jirans .jiranstxt .jiranstxt1:before {display:none;}
+    .jirans .jiranstxt .jiranstxt2 > img {width:150px; padding-top:5px;}
+
+    .jirans .jiransimg {float:none; width:700px; margin:auto;}
+    .jirans .jiransimg a img {width:700px; }
+
+    #uxui2 {height:700px; padding:50px 0;;}
+    .apple {height:800px;}
+    .apple .appleimg {float:none; width:700px; margin:auto;}
+    .apple .appleimg a img {width:700px;}
+
+    .apple .appletxt {float:right; width:100%; line-height:30px; text-align:center; margin-top:50px;}
+    .apple .appletxt h1 {font-size:35px; padding-bottom:5px;}
+    .apple .appletxt .appletxt1 {font-size:20px; line-height:30px;}
+    .apple .appletxt .appletxt1:before {display:none;}
+    .apple .appletxt .appletxt2 > img {width:150px; padding-top:5px;}
+
+
+    #uxui3 { height:700px; padding:50px 0;}
+    .kia { height:800px;}
+    .kia .kiatxt { float:left; width:100%; line-height:30px; text-align:center; margin-top:50px;}
+    .kia .kiatxt h1 { font-size:30px; padding-bottom:5px;}
+    .kia .kiatxt .kiatxt1 {font-size:20px; line-height:30px;}
+    .kia .kiatxt .kiatxt1:before {display:none;}
+    .kia .kiatxt .kiatxt2 > img {width:150px; padding-top:5px;}
+
+    .kia .kiaimg { float:none; width:700px; margin:auto;}
+    .kia .kiaimg a img {width:700px;}
+
+}
+
+/*화면 너비가 769px보다 작을 때*/
+@media (max-width:768px){
+    
+    nav {display:none;}
+    nav ul {display:none;}
+    nav li {float:none}
+    nav a {display:block; font-size:13px; margin-right:10px; background:none; color:rgb(0, 0, 0); border-radius:30px; padding:0 20px; line-height:30px;}
+    nav a:hover {background:none; color:red;}
+    nav a:focus {background:none; color:red; transition:1s;}
+    .m_gnb {display:block;font-family: 'Noto Sans KR', sans-serif; font-weight:bold; }
+    
+    #profile {width:700px;  margin:auto;}
+        .profile_photo img {display:none;}
+    
+    .t_prophoto img {display:block; width:691px; margin:100px 0 50px 0;}
+}
+

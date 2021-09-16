@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chagaramsol</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">    
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/prefixfree.jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</head>
+<body>
+    <header>
+        <h1 class="hidden">Cha Garamsol</h1>
+    </header>
+
+    <div id="m_gnb">
+        <nav class="navbar navbar-light bg-light fixed-top">
+            <div class="m_content container-fluid">
+              <a class="m_menu navbar-brand" href="#"><img src="img/mname.png" alt=""></a>
+              <button class="m_toggle navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link active" aria-current="page" href="portfolio.html">Profile</a>
+                      <a class="nav-link active" aria-current="page" href="portfolio.html#bootS">Bootstrap</a>
+                      <a class="nav-link active" aria-current="page" href="portfolio.html#mobile">Mobile</a>
+                      <a class="nav-link active" aria-current="page" href="portfolio.html#uxui">UX/UI</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown my-5">
+                      <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        CONTECT
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                        <li><a class="dropdown-item" href="#">010-7111-5546</a></li>
+                        <li><a class="dropdown-item" href="#">ramsol40@gmail.com</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div id="content">
+        <div class="name">
+            <img src="img/name.png" alt="">
+        </div>
+        <div class="photo">
+            <a href="portfolio.html"  class="pc_img"><img src="img/solee.png" alt=""></a>
+            <a href="portfolio.html"  class="m_img"><img src="img/msolee.png" alt=""></a>
+            <div class="menu">
+                <div class="menu_mobile">
+                    <a href="portfolio.html#mobile"><img src="img/mobile.png" alt="" class="descImg animate__animated animate__fadeInLeft animate__delay-1s"></a>
+                </div>
+                <div class="menu_uxui">
+                    <a href="portfolio.html#uxui"><img src="img/uxui.png" alt="" class="descImg animate__animated animate__fadeInUp animate__delay-1s"></a>
+                </div>
+                <div class="menu_profile">
+                    <a href="portfolio.html"><img src="img/profile.png" alt="" class="descImg animate__animated animate__fadeInUp animate__delay-1s"></a>
+                </div>
+                <div class="menu_bootS">
+                    <a href="portfolio.html#bootS"><img src="img/bootstrap.png" alt="" class="descImg animate__animated animate__fadeInRight animate__delay-1s"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <footer>
+        <div class="copy">
+            <p>1994.04.28 &copy; CHA GARAMSOL</p>
+        </div>
+    </footer>
+</body>
+</html>
